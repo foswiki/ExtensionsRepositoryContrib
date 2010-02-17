@@ -5,9 +5,11 @@
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <div style="margin-bottom:1em; padding:1em; background:#99ddaa;" >
 %ICON{warning}% This is an *experimental* version of *<nop>%TOPIC%*.
----++!! %ICON{support}% How to configure your Foswiki to install from this testing repository
+---++!! %ICON{support}% How to configure your Foswiki to install from this repository
 In =lib/LocalSite.cfg=, add this web's URL to ={ExtensionsRepositories}=:
-<code>$Foswiki::cfg{ExtensionsRepositories}='Foswiki.org=(http://foswiki.org/Extensions/,http://foswiki.org/pub/Extensions/);Beta=(%SCRIPTURL{"view"}%/%WEB%/,%PUBURL%/%WEB%/)';</code>
+<div style="overflow:auto;">
+<code>$Foswiki::cfg{ExtensionsRepositories}='Foswiki.org=(http://foswiki.org/Extensions/,http://foswiki.org/pub/Extensions/);Local=(%SCRIPTURL{"view"}%/%WEB%/,%PUBURL%/%WEB%/)';</code>
+</div>
 
 [[http://foswiki.org/Development/HowToCreateALocalExtensionRepository#Tell_bin_configure_to_use_the_lo][Read more about configuring Extension repositories.]]
 </div>
