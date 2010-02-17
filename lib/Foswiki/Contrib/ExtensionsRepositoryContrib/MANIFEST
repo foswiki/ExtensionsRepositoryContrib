@@ -1,4 +1,37 @@
 # Release manifest for ExtensionsRepositoryContrib
 data/System/ExtensionsRepositoryContrib.txt 0644 Documentation
 lib/Foswiki/Contrib/ExtensionsRepositoryContrib.pm 0644 Perl module
-
+data/_ExtensionsRepository/AllExtensions.txt                                                                               
+data/_ExtensionsRepository/Compatibility.txt                                                                               
+data/_ExtensionsRepository/ContribPackage.txt                                                                              
+data/_ExtensionsRepository/CoordinateWithAuthor.txt
+data/_ExtensionsRepository/DebianPackage.txt
+data/_ExtensionsRepository/DemoUrl.txt
+data/_ExtensionsRepository/DevelopedInSVN.txt
+data/_ExtensionsRepository/ExtensionClassification.txt
+data/_ExtensionsRepository/ExtensionType.txt
+data/_ExtensionsRepository/FastReport.txt
+data/_ExtensionsRepository/FollowsReleaseProcess.txt
+data/_ExtensionsRepository/ImageUrl.txt
+data/_ExtensionsRepository/ModificationPolicy.txt
+data/_ExtensionsRepository/PackageForm.txt
+data/_ExtensionsRepository/PackageViewTemplate.txt
+data/_ExtensionsRepository/PleaseFeelFreeToModify.txt
+data/_ExtensionsRepository/PluginPackage.txt
+data/_ExtensionsRepository/SkinPackage.txt
+data/_ExtensionsRepository/SupportUrl.txt
+data/_ExtensionsRepository/TestExtensionNews.txt
+data/_ExtensionsRepository/WebAtom.txt
+data/_ExtensionsRepository/WebChanges.txt
+data/_ExtensionsRepository/WebCreateNewTopic.txt
+data/_ExtensionsRepository/WebHome.txt
+data/_ExtensionsRepository/WebIndex.txt
+data/_ExtensionsRepository/WebLeftBar.txt
+data/_ExtensionsRepository/WebNotify.txt
+data/_ExtensionsRepository/WebPreferences.txt
+data/_ExtensionsRepository/WebRss.txt
+data/_ExtensionsRepository/WebSearchAdvanced.txt
+data/_ExtensionsRepository/WebSearch.txt
+data/_ExtensionsRepository/WebStatistics.txt
+data/_ExtensionsRepository/WebTopicList.txt
+data/_ExtensionsRepository/WikiApplicationPackage.txt
