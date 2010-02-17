@@ -6,7 +6,7 @@ This is a new playground and distribution site for testing new versions of relea
 
 <style> table#info {color:#333;} table#info td {width:23%; padding:1em; border:1px solid #ccc; vertical-align:top;} table#info td h2 {margin-top:0; padding-top:0} table#info td em { font-size:1.15em; font-weight:900; font-style:normal; color:#000; } </style>
 ---++ [[Test Extension News]]
-%INCLUDE{"TestExtensionNews" pattern=".*?((   \*.*?\n){1,7}).*"}% <table cellspacing="4" id="info" border="0"> <tbody> <tr> <td>
+%INCLUDE{"ExtensionNews" pattern=".*?((   \*.*?\n){1,7}).*"}% <table cellspacing="4" id="info" border="0"> <tbody> <tr> <td>
 
 ---++!! Support on extensions
 Do you have a _specific question on a extension_? [[Support.Extensions][Browse support questions by extension]]</td> <td>
