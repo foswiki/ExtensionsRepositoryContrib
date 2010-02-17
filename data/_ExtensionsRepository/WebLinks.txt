@@ -1,0 +1,5 @@
+%META:TOPICINFO{author="ProjectContributor" date="1178746198" format="1.1" version="1"}%
+%META:TOPICPARENT{name="WebHome"}%
+   * *Extensions Repository*
+   * [[AllExtensions][ %ICON{"package"}% All extensions]]
+   * [[ExtensionClassification][ %ICON{"searchpackage"}% Browse by category]]
