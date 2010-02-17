@@ -5,25 +5,23 @@ This is a new playground and distribution site for testing new versions of relea
 </div>
 
 <style> table#info {color:#333;} table#info td {width:23%; padding:1em; border:1px solid #ccc; vertical-align:top;} table#info td h2 {margin-top:0; padding-top:0} table#info td em { font-size:1.15em; font-weight:900; font-style:normal; color:#000; } </style>
----++ [[Test Extension News]]
+---++ [[Extension News]]
 %INCLUDE{"ExtensionNews" pattern=".*?((   \*.*?\n){1,7}).*"}% <table cellspacing="4" id="info" border="0"> <tbody> <tr> <td>
 
 ---++!! Support on extensions
 Do you have a _specific question on a extension_? [[Support.Extensions][Browse support questions by extension]]</td> <td>
 ---++!! Using the Foswiki extension repository
-You can _download extensions from both foswiki.org and this Test respository_. See the instructions at [[Foswiki:Development.HowToCreateALocalExtensionRepository][How to use the Foswiki Extension Repository]]. Add this location _Sandbox/Beta_ to your repository location.<br /></td> <td>
+You can _download extensions from both foswiki.org and this Test respository_. See the instructions at [[Foswiki:Development.HowToCreateALocalExtensionRepository][How to use the Foswiki Extension Repository]]. Add this location _%WEB%_ to your repository location.<br /></td> <td>
 ---++!! Developing your own Extensions
-For full information about _developing your own extensions_, visit [[Development.ExtensionDevelopersGettingStarted][our extension development area]]</td> </tr> </tbody> </table>
+For full information about _developing your own extensions_ for Foswiki, visit [[Foswiki:Development.ExtensionDevelopersGettingStarted][our extension development area]]</td> </tr> </tbody> </table>
 
 ---++ Browse Test and Experimental extensions
 %INCLUDE{"ExtensionClassification"}%
 
 See also:
-   * [[AllExtensions][All extensions]] - long list!
+   * [[AllExtensions][All extensions]]
 
 ---++ Recent changes
 %SEARCH{"'1'" web="%INCLUDINGWEB%" type="query" nonoise="on" order="modified" limit="%URLPARAM{"limit" default="10"}%" reverse="on"}% [[WebChanges][more changes]]
 
-<!--
-   * Set HTMLTITLE = %WIKITOOLNAME% - %SITEMAPUSETO%
--->
+%META:PREFERENCE{name="HTMLTITLE" title="HTMLTITLE" type="Set" value="%WIKITOOLNAME% - %SITEMAPUSETO%"}%

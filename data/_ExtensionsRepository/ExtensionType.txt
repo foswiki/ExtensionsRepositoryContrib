@@ -33,4 +33,3 @@
 %META:FILEATTACHMENT{name="iconAddOnPackage.gif" attr="h" autoattached="1" comment="" date="1158379375" path="iconAddOnPackage.gif" size="958" user="Main.PeterThoeny" version="1"}%
 %META:FILEATTACHMENT{name="iconIncompletePackage.gif" attachment="iconIncompletePackage.gif" attr="h" comment="" date="1171095358" path="iconIncompletePackage.gif" size="594" stream="iconIncompletePackage.gif" tmpFilename="/tmp/evwb8LewwE" user="Main.PeterThoeny" version="1"}%
 %META:FILEATTACHMENT{name="iconWikiApplicationPackage.gif" attachment="iconWikiApplicationPackage.gif" attr="h" comment="" date="1233532375" path="iconWikiApplicationPackage.gif" size="356" stream="IO::File=GLOB(0x256e288)" tmpFilename="/var/tmp/CGItemp9871" user="ArthurClemens" version="1"}%
-%META:TOPICMOVED{by="ArthurClemens" date="1233531489" from="Extensions.TopicClassification" to="Extensions.ExtensionType"}%
