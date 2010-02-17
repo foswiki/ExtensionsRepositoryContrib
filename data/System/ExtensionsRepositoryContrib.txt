@@ -19,8 +19,7 @@ prefer.
 %$INSTALL_INSTRUCTIONS%
 
 Set the following variables in this web's WebPreferences:
-   * SVN - the URL for the Subversion repository
-   * 
+   * ==EXTENSIONS_REPOSITORY_SVN== - the URL for the Subversion repository
 
 ---++ Info
 
