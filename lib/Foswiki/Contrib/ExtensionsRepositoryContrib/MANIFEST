@@ -1,0 +1,4 @@
+# Release manifest for ExtensionsRepositoryContrib
+data/System/ExtensionsRepositoryContrib.txt 0644 Documentation
+lib/Foswiki/Contrib/ExtensionsRepositoryContrib.pm 0644 Perl module
+
