@@ -1,5 +1,5 @@
 %META:TOPICINFO{author="GeorgeClark" date="1266273841" format="1.1" reprev="1.1" version="1.1"}%
----+ Test Extension News
+---+ Extension News
 
 Submit a one-liner news flash if you have released an important new extension or a major version of a new extension which you wish to share with on the WebHome.
 
