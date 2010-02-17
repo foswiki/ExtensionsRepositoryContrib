@@ -1,3 +1,3 @@
 %META:TOPICINFO{author="CrawfordCurrie" date="1235500768" format="1.1" version="1.1"}%
-%META:TOPICPARENT{name="EditRowPlugin"}%
+%META:TOPICPARENT{name="PackageForm"}%
 Where to go to get support for this extension, and talk to other users.

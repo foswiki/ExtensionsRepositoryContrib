@@ -17,7 +17,7 @@ These settings override the defaults for this web only. See [[%SYSTEMWEB%.Defaul
 &nbsp;%WEBBGCOLOR%&nbsp;
 </div>
    * Web-specific background color: (Pick a lighter one of the [[%SYSTEMWEB%.StandardColors][StandardColors]]).
-      * Set WEBBGCOLOR = #efefef
+      * Set WEBBGCOLOR = #dcf1a5
       * *Note:* This setting is automatically configured when you create a web
 
    * Image, URL and alternate tooltip text of web's logo.%BR%
@@ -52,12 +52,12 @@ These settings override the defaults for this web only. See [[%SYSTEMWEB%.Defaul
       * Set DENYWEBVIEW = 
       * Set ALLOWWEBVIEW = 
       * Set DENYWEBCHANGE = 
-      * Set ALLOWWEBCHANGE = WillNorris
+      * Set ALLOWWEBCHANGE = %USERSWEB%.AdminGroup
       * Set DENYWEBRENAME = 
-      * Set ALLOWWEBRENAME = WillNorris
+      * Set ALLOWWEBRENAME = %USERSWEB%.AdminGroup
 
    * Users or groups allowed to change or rename this <nop>%TOPIC% topic: (e.g., [[%USERSWEB%.AdminGroup][AdminGroup]])
-      * Set ALLOWTOPICCHANGE = WillNorris
+      * Set ALLOWTOPICCHANGE = %USERSWEB%.AdminGroup
       * Set ALLOWTOPICRENAME = nobody
 
    * Web preferences that are *not* allowed to be overridden by sub-web, user or topic preferences:

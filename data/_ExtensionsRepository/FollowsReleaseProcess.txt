@@ -17,6 +17,6 @@ Changes (such as bugfixes) to an extension that don't change the features of the
 For changes to the features of the extension take these two steps.
 
    * If an extension has a maintainer/author - it is wise to discuss your proposal with the maintainer first as he/she knows the code and the features best and can advise you on how to write your proposal so it is clear and has the best possible chance to be accepted.
-   * Next you submit a feature proposal on Development.FeatureProposals and follow up the next days answering any questions that often comes as a reaction. The process for approval or rejection is described in Development/ReleaseProcess.
+   * Next you submit a feature proposal on Development.FeatureProposals and follow up the next days answering any questions that often comes as a reaction. The process for approval or rejection is described in Foswiki:Development.ReleaseProcess.
 
-For more information on the workflow of a core Foswiki developer, see Development.DeveloperResponsibilities.
+For more information on the workflow of a core Foswiki developer, see Foswiki:Development.DeveloperResponsibilities.
