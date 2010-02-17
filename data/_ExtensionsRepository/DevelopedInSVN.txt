@@ -4,4 +4,4 @@ Field set in the PackageForm when a package is included in the Subversion reposi
 
 You are *strongly* recommended to use subversion for your plugin development. It is an important quality indicator.
 
-The browsable version of the SVN repository can be found at http://biohack.net/svn/.
+The browsable version of the SVN repository can be found at %SVN%.

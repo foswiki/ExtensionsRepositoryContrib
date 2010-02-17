@@ -1,4 +1,5 @@
 %META:TOPICINFO{author="ArthurClemens" date="1233531765" format="1.1" reprev="1.2" version="1.2"}%
+%META:TOPICPARENT{name="PackageForm"}%
 ---+!! %SPACEOUT{"%TOPIC%"}%
 You can also list and install these plugins from the =configure= interface for your local installation.
 %SEARCH{ "ExtensionType='%TOPIC%'" type="query" nosearch="on" nototal="on" header="%PACKAGE_SEARCH_HEADER%" format="%PACKAGE_SEARCH_FORMAT%" }%

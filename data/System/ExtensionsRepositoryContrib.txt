@@ -18,6 +18,10 @@ prefer.
 
 %$INSTALL_INSTRUCTIONS%
 
+Set the following variables in this web's WebPreferences:
+   * SVN - the URL for the Subversion repository
+   * 
+
 ---++ Info
 
 Many thanks to the following sponsors for supporting this work:
@@ -30,7 +34,7 @@ Many thanks to the following sponsors for supporting this work:
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
 |  Dependencies: | %$DEPENDENCIES% |
-|  Home page: | http://foswiki.org/bin/view/Extensions/ExtensionsRepositoryContrib |
-|  Support: | http://foswiki.org/bin/view/Support/ExtensionsRepositoryContrib |
+|  Home page: | http://foswiki.org/Extensions/ExtensionsRepositoryContrib |
+|  Support: | http://foswiki.org/Support/ExtensionsRepositoryContrib |
 
 <!-- Do _not_ attempt to edit this topic; it is auto-generated. -->

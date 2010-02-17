@@ -1,4 +1,5 @@
 %META:TOPICINFO{author="CrawfordCurrie" date="1260363404" format="1.1" version="1.3"}%
+%META:TOPICPARENT{name="PackageForm"}%
 ---+ Modification Policy
 
 One of CoordinateWithAuthor or PleaseFeelFreeToModify.

@@ -2,6 +2,9 @@
 %META:TOPICPARENT{name="WebHome"}%
 ---+!! <nop>%WEB% Web Preferences
 
+   * Settings to customize your Extensions Repository
+      * Set SVN = http://svn.example.com/
+
 The following settings are *web preferences* of the [[%WEB%.%HOMETOPIC%][%WEB%]] web. These preferences overwrite the *site-level preferences* in [[%SYSTEMWEB%.%WIKIPREFSTOPIC%]] and [[%LOCALSITEPREFS%]], and can be overwritten by *user preferences* (your personal topic, eg: [[%USERSWEB%.%WIKINAME%][%WIKINAME%]] in the [[%USERSWEB%.%HOMETOPIC%][%USERSWEB%]] web).
 
 %TOC%
