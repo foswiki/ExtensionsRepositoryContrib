@@ -5,7 +5,6 @@ data/_ExtensionsRepository/AllExtensions.txt
 data/_ExtensionsRepository/Compatibility.txt                                                                               
 data/_ExtensionsRepository/ContribPackage.txt                                                                              
 data/_ExtensionsRepository/CoordinateWithAuthor.txt
-data/_ExtensionsRepository/DebianPackage.txt
 data/_ExtensionsRepository/DemoUrl.txt
 data/_ExtensionsRepository/DevelopedInSVN.txt
 data/_ExtensionsRepository/ExtensionClassification.txt
@@ -20,7 +19,7 @@ data/_ExtensionsRepository/PleaseFeelFreeToModify.txt
 data/_ExtensionsRepository/PluginPackage.txt
 data/_ExtensionsRepository/SkinPackage.txt
 data/_ExtensionsRepository/SupportUrl.txt
-data/_ExtensionsRepository/TestExtensionNews.txt
+data/_ExtensionsRepository/ExtensionNews.txt
 data/_ExtensionsRepository/WebAtom.txt
 data/_ExtensionsRepository/WebChanges.txt
 data/_ExtensionsRepository/WebCreateNewTopic.txt
