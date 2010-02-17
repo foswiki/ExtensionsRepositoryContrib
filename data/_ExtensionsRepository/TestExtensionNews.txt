@@ -1,0 +1,11 @@
+%META:TOPICINFO{author="GeorgeClark" date="1266273841" format="1.1" reprev="1.1" version="1.1"}%
+---+ Test Extension News
+
+Submit a one-liner news flash if you have released an important new extension or a major version of a new extension which you wish to share with on the WebHome.
+
+Always start your news line by using the extension name so the readers then jump to the plugin.
+
+%COMMENT{type="bulletbelow" inputsize="80"}%
+   * New playground web created for Experimental and test versions of extensions - 16 Feb 2010
+
+You can include this feed with =%<nop>INCLUDE{"SimpleNewsFeedData" pattern=".*?(( \*.*?\n){1,5}).*"}%= to show the last 5 news stories

@@ -1,0 +1,24 @@
+%META:TOPICINFO{author="CrawfordCurrie" date="1260434821" format="1.1" reprev="1.18" version="1.18"}%
+---+ Form Definition for Beta Extension Packages
+
+%RED%
+*NEVER EVER CHANGE THIS FORM UNLESS YOU UNDERSTAND HOW IT WILL AFFECT THE CONFIGURE REPORT, AND HOW TO FIX IT*
+%ENDCOLOR%
+
+| *Name:* | *Type:* | *Size:* | *Values:* | *Tooltip message:* |
+| | label | | Make your package findable: select one or more characteristics to describe it. For example: <ul><li><b>Admin</b> - access control, admin tool, authentication, automation, caching</li><li><b>Data and Files</b> - attachment, caching, database, email, import-export, statistics</li><li><b>Development</b> - bugs, build, compatibility, debugging, documentation, helper extension, javascript utility, library</li><li><b>Exporting, Printing and Publishing</b> - export, printing, publishing, office, pdf</li><li><b>Information structuring and Search</b> - changes, classification, date and time, diagram, documentation, findability, search, tagging</li><li><b>Interface and Visualisation</b> - accessibility, css, chart, diagram, drawing, editing, skin, source code highlighting</li><li><b>Multilingual and Locality</b> - localisation, translation</li><li><b>Security</b> - access control, authentication, encryption, spam</li><li><b>User interactivity</b> - blog, calendar, comment, discussion, editing, forum, poll, questionnaire, subscribe to content</li><li><b>Workflow automation</b> - workflow, process, control</li></ul> | |
+| ExtensionClassification | select+multi | 9 |  | Classify the package |
+| | label | | Classify the package according to its type | |
+| ExtensionType | select | 1 | PluginPackage, SkinPackage, ContribPackage, WikiApplicationPackage | Classify the type of package |
+| | label | | Describe what environments the extension has been tested on / should run on; for example<ul><li>What Foswiki versions?</li><li>What TWiki versions?</li><li>Which browsers?</li><li>Which server configurations?</li></ul> | |
+| [[Compatibility]] | textarea | 120x10 | | Describe what environments the extension has been tested on / should run on; for example<ul><li>What Foswiki versions?</li><li>What TWiki versions?</li><li>Which browsers?</li><li>Which server configurations?</li></ul> |
+| | label | | The URL of an image that will be used to illustrate the package in =configure=. This must resolve to an absolute URL in ConfigureImageGallery | |
+| ImageUrl | text | 60 |  | A URL where the image for this package resides. |
+| | label | | A URL where this package can be seen in action, if available | |
+| DemoUrl | text | 60 | http:// | A URL where this package can be seen in action |
+| | label | | A URL where users can get support, and talk to other users of the extension | |
+| SupportUrl | text | 60 | Support.%BASETOPIC% | A URL where users can get support, and talk to other users of the extensionn |
+| | label | | Is the package checked into subversion? ||
+| DevelopedInSVN | radio | 2 | No, Yes | Package is checked in to the subversion repository |
+| | label | | What do you want people to do before making modifications to this package? | |
+| ModificationPolicy | radio | 3 | PleaseFeelFreeToModify, CoordinateWithAuthor, FollowsReleaseProcess | What does the author wants you to do before making modifications to this package. !FollowsReleaseprocess is only used for the set of default extensions that ship with Foswiki. |

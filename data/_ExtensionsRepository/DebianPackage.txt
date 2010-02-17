@@ -1,0 +1,68 @@
+%META:TOPICINFO{author="YogiParish" date="1256298881" format="1.1" reprev="1.17" version="1.17"}%
+---+!! %TOPIC%
+
+%TOC%
+
+---++ Packaging for Debian =.deb= / =apt= distribution
+
+Authored by Main.SvenDowideit. Originated on http://twiki.org/cgi-bin/view/Codev/TWikiOnDebian and http://twiki.org/cgi-bin/view/Codev/TWikiOnDebianPlugins
+
+foswiki is installed into =/var/lib/foswiki= with the configuration files (including apache.conf) installed into =/etc/foswiki=, and the cgi scripts at =/var/lib/foswiki/bin=. (before 1.0.7, they were in /usr/lib/cgi-bin/foswiki)
+
+Because the =apt= package system is more capable than the Foswiki =configure= based Extension installer, you should _always_ use =apt-get=, not the web interface, which is likely to break the package. =apt= will automatically install and configure foswiki, Extensions and their dependencies - making it trivial to install and maintain.
+
+---++ How to install (you must be root)
+
+*Install from [[http://fosiki.com/Foswiki_debian/][Sven's fosiki foswiki debian repository]] with foswiki v1.0.6 and 200 autobuilt extensions from [[Extensions.WebHome][Extensions.WebHome]].* (see http://fosiki.com/Foswiki_debian/FoswikiPackagesList.txt for a complete list)
+
+To try it out, add the following to your =/etc/apt/sources.list=
+
+(Note the spelling of the domain! ==fosiki== not =foswiki= !)
+
+<verbatim>
+deb http://fosiki.com/Foswiki_debian/ stable main contrib
+deb-src http://fosiki.com/Foswiki_debian/ stable main contrib
+</verbatim>
+
+and then run
+
+<verbatim>
+apt-get update
+apt-get install apache2 foswiki
+</verbatim>
+
+Note that you will get a warning that the foswiki package cannot be authenticated. You can reply =y= to this warning.
+
+To see what foswiki extensions are available, run
+<verbatim>
+apt-cache search foswiki
+</verbatim> you should see over 200 (as of July 2009)
+
+The package building script requires an Extension is packaged and uploaded using Extensions.BuildContrib, and that the =DEPENDENCIES= is defined _correctly_ and runs once a day, downloading from foswiki.org and then building newly uploaded Extensions.
+
+The [[http://svn.foswiki.org/trunk/core/tools/pkg][source for the foswiki core package]] is maintained in foswiki svn, while the Extension builder is currently an unreleased work that Sven is re-writing as CPAN modules.
+
+*Note that these packages are not official Debian packages, so bug reports shouldn't be filed to the Debian bugtracker. To know the status of the eventual integration of foswiki into Debian's official archive, see http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=509864*
+
+See also : Community.DebianPackagingTaskTeam
+
+---++ Installation notes
+
+   * The debian packages use a different installation structure than would be expected with a conventional Foswiki installation 
+      * Foswiki is installed into the =/var/lib/foswiki/= directory
+      * Foswiki CGI scripts are installed into =/var/lib/foswiki/bin= (prior to 1.0.7, they were in =/usr/lib/cgi-bin/foswiki=
+      * Logs are written to the =/var/log/foswiki= directory
+      * The Foswiki configuration file =LocalSIte.cfg= is installed into the =/etc/foswiki/= directory, as is the Apache configuration for Foswiki
+      * URL's are also different. =/foswiki/bin/view/= on debian is written =/cgi-bin/foswiki/view/=
+   * External dependencies such as htmldoc (for GenPDFAddOn) or !GraphViz (for DirectedGraphPlugin - [[Tasks.Item1202]]) __are__ automatically resolved unless they can't be automatically detected from the package's =DEPENDENCIES= file, and a present in debian stable. If they are not detected automatically, but there is a relevant debian package, raise a task for _that contrib_ mentioning that you found the issue when using the debs. (basically, its either a difficult to detect dependency, or is missing or wrong in the Foswiki Extension)
+   * If you are __updating__ from e.g. Foswiki 1.0.0. The <literal>apt-get</literal> routine will ask you to change the files <literal>apache.conf</literal> and <literal>LocalSite.cfg</literal> . Accept the change, otherwise the update will not run correctly. If you, for whatever reason do not accept the change, you can later extract the files using the dpkg command and copy them by hand into the <literal>/etc/foswiki</literal> directory. Note that you will have to re-set the password and some of the configure settings if you do this.
+
+---
+%INCLUDE{"Tasks.DebianPackage"}%
+
+---
+
+---++ other technical details
+if you want to use a =robots.txt= file, it would go into the =/var/www= directory - its outside of the scope of the foswiki package, as it affects the entire apache system, not just foswiki.
+
+%META:PREFERENCE{name="TOPICTITLE" title="TOPICTITLE" type="Local" value="Debian Package"}%

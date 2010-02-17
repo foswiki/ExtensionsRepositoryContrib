@@ -1,0 +1,20 @@
+%META:TOPICINFO{author="GeorgeClark" date="1266274459" format="1.1" reprev="1.1" version="1.1"}%
+%META:TOPICPARENT{name="WebHome"}%
+---+!! All Foswiki test and experimental extensions
+
+This is a list of extensions that are offered for Foswiki. %BR% Can't find a plugin in the list? Check the released Plugins repository at [[Extensions.WebHome][Extensions Web]].
+<!-- 
+      * Set PACKAGE_SEARCH_TABLE_PARAMS = sort="off" tablewidth="100%" columnwidths="3%,20%,20%,27%,10%,10%"
+      * Set PACKAGE_SEARCH_HEADER = | *<img src=\"%PUBURL%/%SYSTEMWEB%/DocumentGraphics/web-bg.gif\" alt=\"\" />* | *Classification* | *Package* | *Version* | *Download* | *Support* |
+      * Set PACKAGE_SEARCH_FORMAT = | <img src=\"%PUBURL%/%WEB%/ExtensionType/icon$formfield(ExtensionType).gif\" alt=\"$formfield(ExtensionType)\" title=\"$formfield(ExtensionType)\" /> | $formfield(ExtensionClassification) | <b>[[$topic]]</b><br /><nop>$pattern(.*?\*\sSet\sSHORTDESCRIPTION\s\=([^\n\r]*).*) |$pattern(.*?Version\:?\s*\|([^\\n\r\|]*)\|.*)  | <a href='%PUBURL%/$web/$topic/$topic.zip'><img src=\"%PUBURL%/%SYSTEMWEB%/DocumentGraphics/download.gif\" alt=\"Download this package\" /></a> | [[Support.$topic][Support]] |
+-->
+
+%SEARCH{
+"ExtensionType~'*Package'"
+type="query"
+nosearch="on"
+nototal="on"
+header="%PACKAGE_SEARCH_HEADER%"
+format="%PACKAGE_SEARCH_FORMAT%"
+}%
+| *Total: %CALC{"$SET(total, $INT($ROW(-2)))$IF($GET(total) > 0, $GET(total), none)"}%* ||||||

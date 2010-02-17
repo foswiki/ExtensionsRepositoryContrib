@@ -1,0 +1,9 @@
+%META:TOPICINFO{author="CrawfordCurrie" date="1228301372" format="1.1" version="1.1"}%
+%META:TOPICPARENT{name="PackageForm"}%
+Compatibility of an extension can depend on many variables, including:
+   * What Foswiki version you are running n the server,
+   * What OS you are running on server and client,
+   * What other extensions you have installed,
+   * What versions of CPAN modules you have installed,
+   * What browsers are going to be used, and how they are configured,
+The compatibility field of an extension cannot be taken as the final word on this subject; it is merely a set of guidelines that the extension author has used to indicate what has been tested, and indicate where there may be problems.

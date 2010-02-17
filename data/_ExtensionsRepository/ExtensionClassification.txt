@@ -1,0 +1,43 @@
+%META:TOPICINFO{author="CrawfordCurrie" date="1243843279" format="1.1" reprev="1.11" version="1.11"}%
+---+!! Classification of extensions
+
+---++ Browse extensions by category
+%STARTINCLUDE%<style>
+ul#extensionList, ul#extensionList ul {list-style:none}
+ul#extensionList {margin-left:0; padding-left:0;}
+</style>%INCLUDE{"%TOPIC%" section="listExtensions" category="Admin" description="access control, admin tool, authentication, automation, caching"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Data and Files" description="attachment, caching, database, email, import-export, statistics"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Development" description=" bugs, build, compatibility, debugging, documentation, export, helper extension, javascript utility, library"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Exporting, Printing and Publishing" description="export, printing, publishing, office, pdf"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Information structuring and Search" description="changes, classification, date and time, diagram, documentation, findability, search, tagging"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Interface and Visualisation" description="accessibility, css, chart, diagram, drawing, editing, skin, source code highlighting"}%
+<!-- %INCLUDE{"%TOPIC%" section="listExtensions" category="Multilingual and Locality" description="localisation, translation"}% // add if extensions are added to repository -->
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Security" description="access control, authentication, encryption, spam"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="User interactivity" description="blog, calendar, comment, discussion, editing, forum, poll, questionnaire, subscribe to content"}%
+%INCLUDE{"%TOPIC%" section="listExtensions" category="Workflow automation" description="workflow, process, control"}%%STOPINCLUDE%
+
+---++ Data form definition
+| *Name*  | *Type* | *Tooltip Message* |
+| | option | |
+| Admin  | option | access control, admin tool, authentication, automation, caching |
+| Data and Files  | option | attachment, caching, database, email, import-export, statistics |
+| Development  | option | bugs, build, compatibility, debugging, documentation, helper extension, javascript utility, library |
+| Exporting, Printing and Publishing | option | export, printing, publishing, office, pdf |
+| Information structuring and Search  | option | changes, classification, date and time, diagram, documentation, findability, search, tagging |
+| Interface and Visualisation  | option | accessibility, css, chart, diagram, drawing, editing, skin, source code highlighting |
+| Multilingual and Locality  | option | localisation, translation |
+| Security  | option | access control, authentication, encryption, spam |
+| User interactivity  | option | blog, calendar, comment, discussion, editing, forum, poll, questionnaire, subscribe to content |
+| Workflow automation | option | workflow, process, control |
+
+<verbatim style="display:none;">
+%STARTSECTION{"listExtensions"}%<ul id="extensionList"><li><strong>%category%</strong><ul><li>%description%</li><li>%SEARCH{
+"ExtensionClassification~'*%category%*'"
+type="query"
+web="%WEB%"
+nonoise="on"
+separator=", "
+format="[[$web.$topic][$topic]]"
+}%</li><li><span class="foswikiSmallish"><a href="%SCRIPTURL{view}%/%WEB%/ExtensionSearch?category=%category%">extended list &rarr;</a></span></li>
+</ul></li></ul>%ENDSECTION{"listExtensions"}%
+</verbatim>

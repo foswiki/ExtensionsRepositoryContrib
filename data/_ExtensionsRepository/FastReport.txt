@@ -1,0 +1,40 @@
+%META:TOPICINFO{author="CrawfordCurrie" date="1260434588" format="1.1" reprev="1.14" version="1.14"}%
+<noautolink>
+Topic designed for use with the Extension installer. It generates a specially formatted table which is parsed by the
+extension finder, when retrieved with =?skin=text&contenttype=text/plain=. The table is a list of extensions specifications.
+Each specification is enclosed in curly braces &#123;&#125; and defines a number of fields used by the extension installer, one per line,
+using the syntax =key: value=
+The useful keys are:
+   topic: name of the extension topic
+   classification: to which category does this extension belong
+   description: short description (usually SHORTDESCRIPTION)
+   compatibility: freeform text which Foswiki/TWiki version is supported, as well as notes on platform
+   version: the available version
+For example, the !BathPlugin might be defined as follows:
+<pre>
+&#123; topic: BathPlugin
+  description: Stop the water running out
+  classification: Security
+  compatibility: Foswiki 1.0
+&#125;
+
+<!-- Do not remove the extra $n from the search format. It is needed for 1.0.7. See Task2137 -->
+
+---
+%SEARCH{ 
+"PackageForm" 
+type="query" 
+web="%WEB%"
+nosearch="on" 
+nototal="on" 
+format="{ topic: $topic
+ description: $pattern(.*?\*\sSet\sSHORTDESCRIPTION\s\=([^\n\r]*).*)
+ compatibility: $formfield(Compatibility)
+ classification: $formfield(ExtensionClassification)
+ version:$pattern(.*?\n\|[\s\w-]*\s[Vv]ersion:\s*\|([^|]*)\|.*)
+ release:$pattern(.*?\n\|[\s\w-]*\s[Rr]elease:\s*\|([^|]*)\|.*)
+ image: $formfield(ImageUrl)
+ }$n"
+}%
+</pre>
+</noautolink>

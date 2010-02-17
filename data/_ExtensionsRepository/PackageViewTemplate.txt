@@ -1,0 +1,17 @@
+%TMPL:INCLUDE{"view"}%
+
+<verbatim>
+%TMPL:DEF{"content"}%<noindex><!-- http://www.fusionbot.com/faqs/faq29.asp?pp=10&pos=3 -->
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<div style="margin-bottom:1em; padding:1em; background:#99ddaa;" >
+%ICON{warning}% This is an *experimental* version of *<nop>%TOPIC%*.  For the released version, [[Extensions.%TOPIC%][download from Extensions.%TOPIC%]].
+---++!! %ICON{support}% How to configure your Foswiki to install from this testing repository
+In =lib/LocalSite.cfg=, add this web's URL to ={ExtensionsRepositories}=:
+<verbatim>$Foswiki::cfg{ExtensionsRepositories}='Foswiki.org=(http://foswiki.org/Extensions/,http://foswiki.org/pub/Extensions/);Beta=(http://foswiki.org/Sandbox/Beta/,http://foswiki.org/pub/Sandbox/Beta/)';</verbatim>
+
+[[http://foswiki.org/Development/HowToCreateALocalExtensionRepository#Tell_bin_configure_to_use_the_lo][Read more about configuring Extension repositories.]]
+</div>
+%TEXT%
+</noindex>\
+%TMPL:END%
+</verbatim>

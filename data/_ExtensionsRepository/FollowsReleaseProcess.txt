@@ -1,0 +1,22 @@
+%META:TOPICINFO{author="IsaacLin" date="1231443203" format="1.1" version="1.3"}%
+%META:TOPICPARENT{name="PackageForm"}%
+---+ !SVN Modification Policy: Follows Release Process
+
+This Subversion modification policy applies to all extensions that ship by default with the Foswiki distribution and so are considered to be part of the core Foswiki product. Development for all extensions packaged with the default distribution must comply with the [[Development.ReleaseProcess][Foswiki release process for core development]].
+
+The following extensions follow the core Foswiki release process:
+
+   * *Plugins:* CommentPlugin, EditTablePlugin, EmptyPlugin, InterwikiPlugin, PreferencesPlugin, RenderListPlugin, SlideShowPlugin, SmiliesPlugin, SpreadSheetPlugin, TablePlugin, TinyMCEPlugin, TwistyPlugin, WysiwygPlugin
+   * *Contribs:* BehaviourContrib, JSCalendarContrib, MailerContrib, TipsContrib, TopicUserMappingContrib
+   * *Skins:* PatternSkin
+   * *Compatibility support* - TWikiCompatibilityPlugin
+These extensions follows the exact same rules for changes as the core Foswiki code. Extra care is required to ensure 100% backwards compatibility is any changes done to this set of extensions. Not even the maintainer or author responsible for the extension is allowed to change the behavior of these extensions without a review period and community agreement.
+
+Changes (such as bugfixes) to an extension that don't change the features of the extension can be handled by raising a task in the [[Tasks.WebHome][tasks web]]. If you don't have checkin rights then just attach a patch.
+
+For changes to the features of the extension take these two steps.
+
+   * If an extension has a maintainer/author - it is wise to discuss your proposal with the maintainer first as he/she knows the code and the features best and can advise you on how to write your proposal so it is clear and has the best possible chance to be accepted.
+   * Next you submit a feature proposal on Development.FeatureProposals and follow up the next days answering any questions that often comes as a reaction. The process for approval or rejection is described in Development/ReleaseProcess.
+
+For more information on the workflow of a core Foswiki developer, see Development.DeveloperResponsibilities.

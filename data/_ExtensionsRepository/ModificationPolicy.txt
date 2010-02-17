@@ -1,0 +1,13 @@
+%META:TOPICINFO{author="CrawfordCurrie" date="1260363404" format="1.1" version="1.3"}%
+---+ Modification Policy
+
+One of CoordinateWithAuthor or PleaseFeelFreeToModify.
+
+A special rule applies for Foswiki distributed default extensions which must follow a more strict process FollowsReleaseProcess.
+
+This field was added to the PackageForm to provide a package author with a way to signal to co-developers what should be done about modifications.
+
+Some extensions have effectively been abandoned, others in disuse but still others in constant update. 
+
+Following the value for this field gives you safety in the knowledge that you had a right to make modifications to the subversion repository knowing that no-one will get upset by the fact that you did. (Actually, to date, no one has ever (publically) been upset by this happening...)
+
