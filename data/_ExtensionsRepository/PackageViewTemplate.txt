@@ -7,7 +7,7 @@
 %ICON{warning}% This is an *experimental* version of *<nop>%TOPIC%*.
 ---++!! %ICON{support}% How to configure your Foswiki to install from this testing repository
 In =lib/LocalSite.cfg=, add this web's URL to ={ExtensionsRepositories}=:
-<verbatim>$Foswiki::cfg{ExtensionsRepositories}='Foswiki.org=(http://foswiki.org/Extensions/,http://foswiki.org/pub/Extensions/);Beta=(%SCRIPTURL{"view"}/%WEB%/,http://%PUBURL%/%WEB%/)';</verbatim>
+<code>$Foswiki::cfg{ExtensionsRepositories}='Foswiki.org=(http://foswiki.org/Extensions/,http://foswiki.org/pub/Extensions/);Beta=(%SCRIPTURL{"view"}%/%WEB%/,%PUBURL%/%WEB%/)';</code>
 
 [[http://foswiki.org/Development/HowToCreateALocalExtensionRepository#Tell_bin_configure_to_use_the_lo][Read more about configuring Extension repositories.]]
 </div>
