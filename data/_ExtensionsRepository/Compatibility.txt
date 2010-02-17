@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="CrawfordCurrie" date="1228301372" format="1.1" version="1.1"}%
+%META:TOPICINFO{author="ProjectContributor" date="1228301372" format="1.1" version="1.1"}%
 %META:TOPICPARENT{name="PackageForm"}%
 Compatibility of an extension can depend on many variables, including:
    * Which Foswiki version you are running n the server,

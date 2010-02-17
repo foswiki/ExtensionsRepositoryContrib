@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="CrawfordCurrie" date="1260363589" format="1.1" reprev="1.5" version="1.5"}%
+%META:TOPICINFO{author="ProjectContributor" date="1260363589" format="1.1" reprev="1.5" version="1.5"}%
 %META:TOPICPARENT{name="ModificationPolicy"}%
 ---+ !SVN Modification Policy: Coordinate with Author
 

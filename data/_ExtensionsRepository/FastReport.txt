@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="CrawfordCurrie" date="1260434588" format="1.1" reprev="1.14" version="1.14"}%
+%META:TOPICINFO{author="ProjectContributor" date="1260434588" format="1.1" reprev="1.14" version="1.14"}%
 <noautolink>
 Topic designed for use with the Extension installer. It generates a specially formatted table which is parsed by the
 extension finder, when retrieved with =?skin=text&contenttype=text/plain=. The table is a list of extensions specifications.

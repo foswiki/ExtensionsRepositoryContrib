@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ArthurClemens" date="1233532387" format="1.1" reprev="1.2" version="1.2"}%
+%META:TOPICINFO{author="ProjectContributor" date="1233532387" format="1.1" reprev="1.2" version="1.2"}%
 %META:TOPICPARENT{name="PackageForm"}%
 ---+ Extension Type Classification
 
@@ -7,29 +7,29 @@
    * <img src="%ATTACHURLPATH%/iconPluginPackage.gif" alt="iconPluginPackage.gif" width='16' height='16' /> PluginPackage: add new functionality to the wiki in a robust, stand-alone way
    * <img src="%ATTACHURLPATH%/iconSkinPackage.gif" alt="iconSkinPackage.gif" width='16' height='16' /> SkinPackage: change the look and feel of the wiki UI
 
-%META:FILEATTACHMENT{name="iconSkinDevelopment.gif" attr="h" autoattached="1" comment="" date="1158386739" path="iconSkinDevelopment.gif" size="936" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconPluginPackage.gif" attr="h" autoattached="1" comment="" date="1158379433" path="iconPluginPackage.gif" size="1022" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconPluginBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386681" path="iconPluginBrainstorming.gif" size="1029" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconObsoletePluginPackage.gif" attr="h" autoattached="1" comment="" date="1158379443" path="iconObsoletePluginPackage.gif" size="1023" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="package.gif" attr="h" autoattached="1" comment="" date="1159054153" path="package.gif" size="961" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="icon.gif" attr="h" autoattached="1" comment="" date="1158379483" path="icon.gif" size="118" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconObsoleteSkinPackage.gif" attr="h" autoattached="1" comment="" date="1158379469" path="iconObsoleteSkinPackage.gif" size="940" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconObsoleteAddOnPackage.gif" attr="h" autoattached="1" comment="" date="1158379390" path="iconObsoleteAddOnPackage.gif" size="981" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconSkinPackage.gif" attr="h" autoattached="1" comment="" date="1158379459" path="iconSkinPackage.gif" size="900" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconAddOnDevelopment.gif" attr="h" autoattached="1" comment="" date="1158386614" path="iconAddOnDevelopment.gif" size="981" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconPluginAppraisal.gif" attr="h" autoattached="1" comment="" date="1158386704" path="iconPluginAppraisal.gif" size="338" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="tag.gif" attr="h" autoattached="1" comment="" date="1159054163" path="tag.gif" size="931" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconObsoleteContribPackage.gif" attr="h" autoattached="1" comment="" date="1158379416" path="iconObsoleteContribPackage.gif" size="910" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconContribDevelopment.gif" attr="h" autoattached="1" comment="" date="1158395482" path="iconContribDevelopment.gif" size="918" user="Main.PeterThoeny" version="2"}%
-%META:FILEATTACHMENT{name="searchpackage.gif" attr="h" autoattached="1" comment="" date="1159055806" path="searchpackage.gif" size="978" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconAdminTopic.gif" attr="h" autoattached="1" comment="" date="1158386767" path="iconAdminTopic.gif" size="377" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconContribPackage.gif" attr="h" autoattached="1" comment="" date="1158379407" path="iconContribPackage.gif" size="871" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconContribBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386642" path="iconContribBrainstorming.gif" size="912" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconAddOnBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386600" path="iconAddOnBrainstorming.gif" size="995" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="searchtag.gif" attr="h" autoattached="1" comment="" date="1159055820" path="searchtag.gif" size="959" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconPluginDevelopment.gif" attr="h" autoattached="1" comment="" date="1158386692" path="iconPluginDevelopment.gif" size="1016" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconDefineTopic.gif" attr="h" autoattached="1" comment="" date="1158386752" path="iconDefineTopic.gif" size="212" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconSkinBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386729" path="iconSkinBrainstorming.gif" size="939" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconAddOnPackage.gif" attr="h" autoattached="1" comment="" date="1158379375" path="iconAddOnPackage.gif" size="958" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconIncompletePackage.gif" attachment="iconIncompletePackage.gif" attr="h" comment="" date="1171095358" path="iconIncompletePackage.gif" size="594" stream="iconIncompletePackage.gif" tmpFilename="/tmp/evwb8LewwE" user="Main.PeterThoeny" version="1"}%
-%META:FILEATTACHMENT{name="iconWikiApplicationPackage.gif" attachment="iconWikiApplicationPackage.gif" attr="h" comment="" date="1233532375" path="iconWikiApplicationPackage.gif" size="356" stream="IO::File=GLOB(0x256e288)" tmpFilename="/var/tmp/CGItemp9871" user="ArthurClemens" version="1"}%
+%META:FILEATTACHMENT{name="iconSkinDevelopment.gif" attr="h" autoattached="1" comment="" date="1158386739" path="iconSkinDevelopment.gif" size="936" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconPluginPackage.gif" attr="h" autoattached="1" comment="" date="1158379433" path="iconPluginPackage.gif" size="1022" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconPluginBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386681" path="iconPluginBrainstorming.gif" size="1029" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconObsoletePluginPackage.gif" attr="h" autoattached="1" comment="" date="1158379443" path="iconObsoletePluginPackage.gif" size="1023" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="package.gif" attr="h" autoattached="1" comment="" date="1159054153" path="package.gif" size="961" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="icon.gif" attr="h" autoattached="1" comment="" date="1158379483" path="icon.gif" size="118" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconObsoleteSkinPackage.gif" attr="h" autoattached="1" comment="" date="1158379469" path="iconObsoleteSkinPackage.gif" size="940" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconObsoleteAddOnPackage.gif" attr="h" autoattached="1" comment="" date="1158379390" path="iconObsoleteAddOnPackage.gif" size="981" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconSkinPackage.gif" attr="h" autoattached="1" comment="" date="1158379459" path="iconSkinPackage.gif" size="900" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconAddOnDevelopment.gif" attr="h" autoattached="1" comment="" date="1158386614" path="iconAddOnDevelopment.gif" size="981" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconPluginAppraisal.gif" attr="h" autoattached="1" comment="" date="1158386704" path="iconPluginAppraisal.gif" size="338" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="tag.gif" attr="h" autoattached="1" comment="" date="1159054163" path="tag.gif" size="931" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconObsoleteContribPackage.gif" attr="h" autoattached="1" comment="" date="1158379416" path="iconObsoleteContribPackage.gif" size="910" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconContribDevelopment.gif" attr="h" autoattached="1" comment="" date="1158395482" path="iconContribDevelopment.gif" size="918" user="Main.ProjectContributor" version="2"}%
+%META:FILEATTACHMENT{name="searchpackage.gif" attr="h" autoattached="1" comment="" date="1159055806" path="searchpackage.gif" size="978" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconAdminTopic.gif" attr="h" autoattached="1" comment="" date="1158386767" path="iconAdminTopic.gif" size="377" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconContribPackage.gif" attr="h" autoattached="1" comment="" date="1158379407" path="iconContribPackage.gif" size="871" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconContribBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386642" path="iconContribBrainstorming.gif" size="912" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconAddOnBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386600" path="iconAddOnBrainstorming.gif" size="995" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="searchtag.gif" attr="h" autoattached="1" comment="" date="1159055820" path="searchtag.gif" size="959" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconPluginDevelopment.gif" attr="h" autoattached="1" comment="" date="1158386692" path="iconPluginDevelopment.gif" size="1016" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconDefineTopic.gif" attr="h" autoattached="1" comment="" date="1158386752" path="iconDefineTopic.gif" size="212" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconSkinBrainstorming.gif" attr="h" autoattached="1" comment="" date="1158386729" path="iconSkinBrainstorming.gif" size="939" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconAddOnPackage.gif" attr="h" autoattached="1" comment="" date="1158379375" path="iconAddOnPackage.gif" size="958" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconIncompletePackage.gif" attachment="iconIncompletePackage.gif" attr="h" comment="" date="1171095358" path="iconIncompletePackage.gif" size="594" stream="iconIncompletePackage.gif" tmpFilename="/tmp/evwb8LewwE" user="Main.ProjectContributor" version="1"}%
+%META:FILEATTACHMENT{name="iconWikiApplicationPackage.gif" attachment="iconWikiApplicationPackage.gif" attr="h" comment="" date="1233532375" path="iconWikiApplicationPackage.gif" size="356" stream="IO::File=GLOB(0x256e288)" tmpFilename="/var/tmp/CGItemp9871" user="Main.ProjectContributor" version="1"}%

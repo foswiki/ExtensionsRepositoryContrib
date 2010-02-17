@@ -1,5 +1,5 @@
-%META:TOPICINFO{author="CrawfordCurrie" date="1260434821" format="1.1" reprev="1.18" version="1.18"}%
----+ Form Definition for Beta Extension Packages
+%META:TOPICINFO{author="ProjectContributor" date="1260434821" format="1.1" reprev="1.18" version="1.18"}%
+---+ Form Definition for Extension Packages
 
 %RED%
 *NEVER EVER CHANGE THIS FORM UNLESS YOU UNDERSTAND HOW IT WILL AFFECT THE CONFIGURE REPORT, AND HOW TO FIX IT*

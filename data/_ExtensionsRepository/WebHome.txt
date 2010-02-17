@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="WillNorris" date="1266285022" format="1.1" version="1.5"}%
+%META:TOPICINFO{author="ProjectContributor" date="1266285022" format="1.1" version="1.5"}%
 ---+!! Foswiki Test and Experimental Extensions: Plugins, Skins, Contribs
 <div style="margin-bottom:0.5em 1em 1m 1em; padding:1em; background:#99ddaa;" >
 This is a new playground and distribution site for testing new versions of released extensions and experimental extensions which should not be offered in the =bin/configure= Find Extensions tool unless requested. To access these plugins, add this web "Sandbox/Beta" to the {ExtensionsRepositories} setting in your =lib/LocalSite.cfg= [[Foswiki:Development.HowToCreateALocalExtensionRepository][Read more about alternate extension repositories]]
