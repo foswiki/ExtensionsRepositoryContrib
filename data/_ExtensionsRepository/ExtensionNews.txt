@@ -6,7 +6,6 @@ Submit a one-liner news flash if you have released an important new extension or
 Always start your news line by using the extension name so the readers then jump to the plugin.
 
 %COMMENT{type="bulletbelow" inputsize="80" templatetopic="%TOPIC%"}%
-   * !ExtensionsRepositoryContrib created and released - 16 Feb 2010
 
 You can include this feed with =%<nop>INCLUDE{"%TOPIC%" pattern=".*?(( \*.*?\n){1,5}).*"}%= to show the last 5 news stories
 
