@@ -1,11 +1,28 @@
 %META:TOPICINFO{author="ProjectContributor" date="1266273841" format="1.1" reprev="1.1" version="1.1"}%
 ---+ Extension News
 
-Submit a one-liner news flash if you have released an important new extension or a major version of a new extension which you wish to share with on the WebHome.
+Submit a one-liner news flash if you have released an important new extension or a major version of a new extension which you wish to share on the WebHome.
 
 Always start your news line by using the extension name so the readers then jump to the plugin.
 
-%COMMENT{type="bulletbelow" inputsize="80"}%
+%COMMENT{type="bulletbelow" inputsize="80" templatetopic="%TOPIC%"}%
    * !ExtensionsRepositoryContrib created and released - 16 Feb 2010
 
-You can include this feed with =%<nop>INCLUDE{"%TOPIC%" pattern=".*?((   \*.*?\n){1,5}).*"}%= to show the last 5 news stories.
+You can include this feed with =%<nop>INCLUDE{"%TOPIC%" pattern=".*?(( \*.*?\n){1,5}).*"}%= to show the last 5 news stories
+
+
+<!--
+---+++ bulletbelow
+Bullet item added immediately after the COMMENT tag. Used to add bullets at the top of a list. The input field width is passed with parameter =inputsize=, for example:
+<blockquote><verbatim>
+%COMMENT{type="bulletbelow" inputsize="20"}%
+</verbatim></blockquote>
+
+<verbatim>
+%TMPL:DEF{PROMPT:bulletbelow}%<input class="foswikiInputField" name="bullet_below_item" id="bullet_below_item" type="text" size="%inputsize|60%" value="%URLPARAM{"bullet_below_item"}%" />&nbsp;<input %DISABLED% type="submit" value="%button|Add item%" class="foswikiButton" />%TMPL:END%
+</verbatim>
+<verbatim>
+%TMPL:DEF{OUTPUT:bulletbelow}%   * %URLPARAM{"bullet_below_item" encode="off"}%%POS:AFTER%
+%TMPL:END%
+</verbatim> 
+-->
