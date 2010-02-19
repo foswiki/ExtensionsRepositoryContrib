@@ -1,0 +1,7 @@
+%META:TOPICINFO{author="ProjectContributor" date="1233846573" format="1.1" version="1.3"}%
+%IF{"defined 'category'" then="---+!! Extensions categorised with '$percntURLPARAM{$quotcategory$quot}$percnt'"}%
+%IF{"defined 'category'" then="$percntSEARCH{ $quotExtensionClassification~'*$percntURLPARAM{$quotcategory$quot}$percnt*'$quot type=$quotquery$quot web=$quot$percntWEB$percnt$quot nonoise=$quoton$quot header=$quot$percntPACKAGE_SEARCH_HEADER$percnt$quot format=$quot$percntPACKAGE_SEARCH_FORMAT$percnt$quot }$percnt" else="Usage: =%TOPIC%?category=Development="}%
+
+
+
+%META:TOPICMOVED{by="ArthurClemens" date="1233576301" from="Extensions.PackageSearch" to="Extensions.ExtensionSearch"}%
