@@ -1,3 +1,5 @@
 %META:TOPICINFO{author="ProjectContributor" date="1235500768" format="1.1" version="1.1"}%
 %META:TOPICPARENT{name="PackageForm"}%
+---+!! Support URL
+
 Where to go to get support for this extension, and talk to other users.

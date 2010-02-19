@@ -1,8 +1,8 @@
 %META:TOPICINFO{author="ProjectContributor" date="1266274459" format="1.1" reprev="1.1" version="1.1"}%
 %META:TOPICPARENT{name="WebHome"}%
----+!! All Foswiki test and experimental extensions
+---+!! All Foswiki extensions
 
-This is a list of extensions that are offered for Foswiki. %BR% Can't find a plugin in the list? Check the released Plugins repository at [[Extensions.WebHome][Extensions Web]].
+This is a list of extensions that are offered for Foswiki that are available on this site. %BR% Can't find a plugin in the list? Check the released extensions repository at the [[http://foswiki.org/Extensions][foswiki.org Extensions Web]].
 <!-- 
       * Set PACKAGE_SEARCH_TABLE_PARAMS = sort="off" tablewidth="100%" columnwidths="3%,20%,20%,27%,10%,10%"
       * Set PACKAGE_SEARCH_HEADER = | *<img src=\"%PUBURL%/%SYSTEMWEB%/DocumentGraphics/web-bg.gif\" alt=\"\" />* | *Classification* | *Package* | *Version* | *Download* | *Support* |

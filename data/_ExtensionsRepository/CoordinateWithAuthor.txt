@@ -2,9 +2,9 @@
 %META:TOPICPARENT{name="ModificationPolicy"}%
 ---+ !SVN Modification Policy: Coordinate with Author
 
-Changes (such as bugfixes) to an extension that don't change the features of the extension can often be handled by raising a task in the [[Tasks.WebHome][tasks web]]. If you don't have checkin rights then just attach a patch.
+Changes (such as bugfixes) to an extension that don't change the features of the extension can often be handled by raising a task in the [[Foswiki:Tasks.WebHome][tasks web]]. If you don't have checkin rights, then just attach a patch.
 
-For changes to the features of the extension, the author has requested that you try to coordinate with them first. The best way to do that is to raise a [[Development.FeatureProposal][feature proposal]].You can also contact the author directly by email. If the author does not respond within a reasonable time (say 2 weeks) and there are no protests raised against your feature proposal, then you should proceed with a checkin. This seems like a long time to wait, but experience shows that authors are often out of contact for extended periods.
+For changes to the features of the extension, the author has requested that you try to coordinate with them first. The best way to do that is to raise a [[Foswiki:Development.FeatureProposal][feature proposal]].You can also contact the author directly by email. If the author does not respond within a reasonable time (say 2 weeks) and there are no protests raised against your feature proposal, then you should proceed with a checkin. This seems like a long time to wait, but experience shows that authors are often out of contact for extended periods.
 
 Please note that the purpose of the "coordinate with author" policy is to make sure that the original author can remain involved with the evolution of their work. It is not meant to indicate exclusive check-in rights to the extension. Anyone is welcome to contribute.
 

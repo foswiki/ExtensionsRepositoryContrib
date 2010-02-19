@@ -1,7 +1,9 @@
 %META:TOPICINFO{author="ProjectContributor" date="1233531492" format="1.1" version="1.2"}%
 %META:TOPICPARENT{name="PackageForm"}%
+---+ Developed in SVN
+
 Field set in the PackageForm when a package is included in the Subversion repository.
 
 You are *strongly* recommended to use subversion for your plugin development. It is an important quality indicator.
 
-The browsable version of the SVN repository can be found at %SVN%.
+The browsable version of the SVN repository can be found at %EXTENSIONS_REPOSITORY_SVN%.
