@@ -3,6 +3,7 @@ data/System/ExtensionsRepositoryContrib.txt 0644 Documentation
 lib/Foswiki/Contrib/ExtensionsRepositoryContrib.pm 0644 Perl module
 data/_ExtensionsRepository/AllExtensions.txt                                                                               
 data/_ExtensionsRepository/Compatibility.txt                                                                               
+data/_ExtensionsRepository/ConfigureImageGallery.txt
 data/_ExtensionsRepository/ContribPackage.txt                                                                              
 data/_ExtensionsRepository/CoordinateWithAuthor.txt
 data/_ExtensionsRepository/DemoUrl.txt

@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="ProjectContributor" date="1260452673" format="1.1" reprev="1.4" version="1.4"}%
+---+ %TOPIC%
+This topic is for proof checking images that will be used for extensions in =configure=
+| *Extension* | *Image* | *URL* |
+%SEARCH{ 
+"PackageForm" 
+type="query" 
+web="Extensions"
+nosearch="on" 
+nototal="on" 
+format="| $topic | <img src='$formfield(ImageUrl)' /> | <noautolink>$formfield(ImageUrl)</noautolink> |"
+}%
