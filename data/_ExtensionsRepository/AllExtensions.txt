@@ -3,11 +3,6 @@
 ---+!! All Foswiki extensions
 
 This is a list of extensions that are offered for Foswiki that are available on this site. %BR% Can't find a plugin in the list? Check the released extensions repository at the [[http://foswiki.org/Extensions][foswiki.org Extensions Web]].
-<!-- 
-      * Set PACKAGE_SEARCH_TABLE_PARAMS = sort="off" tablewidth="100%" columnwidths="3%,20%,20%,27%,10%,10%"
-      * Set PACKAGE_SEARCH_HEADER = | *<img src=\"%PUBURL%/%SYSTEMWEB%/DocumentGraphics/web-bg.gif\" alt=\"\" />* | *Classification* | *Package* | *Version* | *Download* | *Support* |
-      * Set PACKAGE_SEARCH_FORMAT = | <img src=\"%PUBURL%/%WEB%/ExtensionType/icon$formfield(ExtensionType).gif\" alt=\"$formfield(ExtensionType)\" title=\"$formfield(ExtensionType)\" /> | $formfield(ExtensionClassification) | <b>[[$topic]]</b><br /><nop>$pattern(.*?\*\sSet\sSHORTDESCRIPTION\s\=([^\n\r]*).*) |$pattern(.*?Version\:?\s*\|([^\\n\r\|]*)\|.*)  | <a href='%PUBURL%/$web/$topic/$topic.zip'><img src=\"%PUBURL%/%SYSTEMWEB%/DocumentGraphics/download.gif\" alt=\"Download this package\" /></a> | [[Support.$topic][Support]] |
--->
 
 %SEARCH{
 "ExtensionType~'*Package'"
