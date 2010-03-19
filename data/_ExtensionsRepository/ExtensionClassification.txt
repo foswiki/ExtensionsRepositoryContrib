@@ -32,14 +32,14 @@ ul#extensionList {margin-left:0; padding-left:0;}
 | Workflow automation | option | workflow, process, control |
 
 <verbatim style="display:none;">
-%STARTSECTION{"listExtensions"}%<ul id="extensionList"><li><strong>%category%</strong><ul><li>%description%</li>
+%STARTSECTION{"listExtensions"}%<ul id="extensionList"><li><strong>%category%</strong> %description%
 %TWISTY{
 mode="div"
 showlink="Show..."
 hidelink="Hide"
 class="foswikiHelp"
 }%
-<li>%SEARCH{
+%SEARCH{
 "ExtensionClassification~'*%category%*'"
 type="query"
 web="%WEB%"
@@ -47,6 +47,5 @@ nonoise="on"
 separator=", "
 format="[[$web.$topic][$topic]]"
 }%</li>
-<li><span class="foswikiSmallish"><a href="%SCRIPTURL{view}%/%WEB%/ExtensionSearch?category=%category%">extended list &rarr;</a></span></li>
-%ENDTWISTY%</ul></li></ul>%ENDSECTION{"listExtensions"}%
+%ENDTWISTY%%ENDSECTION{"listExtensions"}%
 </verbatim>
