@@ -23,12 +23,13 @@ Set the following variables in this web's WebPreferences:
 
 ---++ Info
 
-|  Author(s): | Foswiki:Main.WillNorris, Foswiki:Main.GeorgeClark, Foswiki:Main.ArthurClemens, Foswiki:Main.CrawfordCurrie, Foswiki:Main.KennethLavrsen |
+|  Author(s): | Foswiki:Main.WillNorris, Foswiki:Main.GeorgeClark, Foswiki:Main.ArthurClemens, Foswiki:Main.CrawfordCurrie, Foswiki:Main.KennethLavrsen, Foswiki:Main.MichaelDaum |
 |  Copyright: | &copy; 2008,2009,2010 Foswiki contributors |
 |  License: | [[http://www.gnu.org/licenses/gpl.html][GPL (Gnu General Public License)]] |
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  19 Mar 2010 | twisties for browsing by classification -- Foswiki:Main.GeorgeClark, Foswiki:Main.WillNorris, Foswiki:Main.MichaelDaum |
 |  18 Feb 2010 | Initial release (extracted from http://foswiki.org/Extensions) |
 |  Dependencies: | %$DEPENDENCIES% |
 |  Home page: | http://foswiki.org/Extensions/%TOPIC% |
