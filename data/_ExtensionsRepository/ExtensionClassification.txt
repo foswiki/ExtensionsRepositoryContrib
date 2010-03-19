@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" date="1243843279" format="1.1" reprev="1.11" version="1.11"}%
+%META:TOPICINFO{author="ProjectContributor" date="1268971556" format="1.1" version="1.3"}%
 %META:TOPICPARENT{name="PackageForm"}%
 ---+!! Classification of extensions
 
@@ -12,7 +12,7 @@ ul#extensionList {margin-left:0; padding-left:0;}
 %INCLUDE{"%TOPIC%" section="listExtensions" category="Exporting, Printing and Publishing" description="export, printing, publishing, office, pdf"}%
 %INCLUDE{"%TOPIC%" section="listExtensions" category="Information structuring and Search" description="changes, classification, date and time, diagram, documentation, findability, search, tagging"}%
 %INCLUDE{"%TOPIC%" section="listExtensions" category="Interface and Visualisation" description="accessibility, css, chart, diagram, drawing, editing, skin, source code highlighting"}%
-<!-- %INCLUDE{"%TOPIC%" section="listExtensions" category="Multilingual and Locality" description="localisation, translation"}% // add if extensions are added to repository -->
+<!-- INCLUDE{"%TOPIC%" section="listExtensions" category="Multilingual and Locality" description="localisation, translation"}% // add if extensions are added to repository -->
 %INCLUDE{"%TOPIC%" section="listExtensions" category="Security" description="access control, authentication, encryption, spam"}%
 %INCLUDE{"%TOPIC%" section="listExtensions" category="User interactivity" description="blog, calendar, comment, discussion, editing, forum, poll, questionnaire, subscribe to content"}%
 %INCLUDE{"%TOPIC%" section="listExtensions" category="Workflow automation" description="workflow, process, control"}%%STOPINCLUDE%
@@ -32,13 +32,21 @@ ul#extensionList {margin-left:0; padding-left:0;}
 | Workflow automation | option | workflow, process, control |
 
 <verbatim style="display:none;">
-%STARTSECTION{"listExtensions"}%<ul id="extensionList"><li><strong>%category%</strong><ul><li>%description%</li><li>%SEARCH{
+%STARTSECTION{"listExtensions"}%<ul id="extensionList"><li><strong>%category%</strong><ul><li>%description%</li>
+%TWISTY{
+mode="div"
+showlink="Show..."
+hidelink="Hide"
+class="foswikiHelp"
+}%
+<li>%SEARCH{
 "ExtensionClassification~'*%category%*'"
 type="query"
 web="%WEB%"
 nonoise="on"
 separator=", "
 format="[[$web.$topic][$topic]]"
-}%</li><li><span class="foswikiSmallish"><a href="%SCRIPTURL{view}%/%WEB%/ExtensionSearch?category=%category%">extended list &rarr;</a></span></li>
-</ul></li></ul>%ENDSECTION{"listExtensions"}%
+}%</li>
+<li><span class="foswikiSmallish"><a href="%SCRIPTURL{view}%/%WEB%/ExtensionSearch?category=%category%">extended list &rarr;</a></span></li>
+%ENDTWISTY%</ul></li></ul>%ENDSECTION{"listExtensions"}%
 </verbatim>
