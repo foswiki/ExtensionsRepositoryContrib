@@ -5,7 +5,7 @@ This topic is for proof checking images that will be used for extensions in =con
 %SEARCH{ 
 "PackageForm" 
 type="query" 
-web="Extensions"
+web="%WEB%"
 nosearch="on" 
 nototal="on" 
 format="| $topic | <img src='$formfield(ImageUrl)' /> | <noautolink>$formfield(ImageUrl)</noautolink> |"
