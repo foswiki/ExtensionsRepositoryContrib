@@ -47,5 +47,5 @@ nonoise="on"
 separator=", "
 format="[[$web.$topic][$topic]]"
 }%</li>
-%ENDTWISTY%%ENDSECTION{"listExtensions"}%
+%ENDTWISTY%</ul>%ENDSECTION{"listExtensions"}%
 </verbatim>
