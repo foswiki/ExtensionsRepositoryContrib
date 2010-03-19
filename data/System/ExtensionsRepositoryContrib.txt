@@ -16,10 +16,10 @@ prefer.
 
 ---++ Installation Instructions
 
-%$INSTALL_INSTRUCTIONS%
-
 Set the following variables in this web's WebPreferences:
    * ==EXTENSIONS_REPOSITORY_SVN== - the URL for the Subversion repository
+
+%$INSTALL_INSTRUCTIONS%
 
 ---++ Info
 
@@ -29,8 +29,9 @@ Set the following variables in this web's WebPreferences:
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  18 Feb 2010 | Initial release (extracted from http://foswiki.org/Extensions) |
 |  Dependencies: | %$DEPENDENCIES% |
-|  Home page: | http://foswiki.org/Extensions/ExtensionsRepositoryContrib |
-|  Support: | http://foswiki.org/Support/ExtensionsRepositoryContrib |
+|  Home page: | http://foswiki.org/Extensions/%TOPIC% |
+|  Support: | http://foswiki.org/Support/%TOPIC% |
 
 <!-- Do _not_ attempt to edit this topic; it is auto-generated. -->
