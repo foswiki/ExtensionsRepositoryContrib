@@ -12,7 +12,37 @@ prefer.
 
 ---++ Usage
 
+This contrib is a packaging of the Extensions repository of
+[[http://foswiki.org/Extensions][foswiki.org/Extensions]] in the
+form of a template web.  After this contrib is installed, you can create a
+local Extension repository by using the WebCreator dialog to create a new web
+based upon the the template web.
+
+Once a new local extension repository has been created, you use the
+BuildContrib =build.pl upload= command to upload your extension to this new
+repository.
+
+To install extensions from this new repository, follow the instructions for
+adding the repository to your =bin/configure= configuration.
+
 ---++ Examples
+---+++ General usage as a local repository
+
+   * Install the ExtensionsRepositoryContrib
+   * Use the Create a new Web dialog in the System/ManagingWebs topic to create your local repository
+      * Enter your new repository name ex. =Localmirror=
+      * Click the _Show additional settings_ twisty, and choose =_ExtensionsRepository= as the template
+   * Upload your extension to the Localmirror repository
+      * Change to the =MyPlugin/lib/Foswiki/Plugins/MyPlugin= directory
+      * Issue =build.pl upload= to build and upload the extension
+      * When prompted, enter the location of your new repository
+   * Modify your configuration to install extensions from your new repository
+      * =$Foswiki::cfg{ExtensionsRepositories} = 'Mysite.com=(http://mysite.com/Localmirror/,http://mysite.com/pub/Localmirror/)';=
+
+---+++ Mirroring an extension from Foswiki.org
+
+   * View the desired extension on Foswiki.org  using the URL Parameter =?raw=all= and save the file as a text file in your new extensions directory
+   * Download and attach the =_installer= and =.tgz= archive.
 
 ---++ Installation Instructions
 
