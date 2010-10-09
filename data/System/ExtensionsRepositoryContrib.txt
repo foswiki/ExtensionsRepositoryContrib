@@ -37,6 +37,7 @@ adding the repository to your =bin/configure= configuration.
       * Issue =build.pl upload= to build and upload the extension
       * When prompted, enter the location of your new repository
    * Modify your configuration to install extensions from your new repository
+      * %T% This is an expert parameter in the =Extensions= tab in configure
       * =$Foswiki::cfg{ExtensionsRepositories} = 'Mysite.com=(http://mysite.com/Localmirror/,http://mysite.com/pub/Localmirror/)';=
 
 ---+++ Mirroring an extension from Foswiki.org
@@ -59,6 +60,7 @@ Set the following variables in this web's WebPreferences:
 |  Release: | %$RELEASE% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|   8 Oct 2010 | Foswikitask:Item9438 - Add documentation on how to use this contrib |
 |  19 Mar 2010 | twisties for browsing by classification -- Foswiki:Main.GeorgeClark, Foswiki:Main.WillNorris, Foswiki:Main.MichaelDaum |
 |  18 Feb 2010 | Initial release (extracted from http://foswiki.org/Extensions) |
 |  Dependencies: | %$DEPENDENCIES% |
